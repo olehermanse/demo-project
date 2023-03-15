@@ -5,7 +5,8 @@
     "namespace": "uninstall_packages",
     "response": [
       { "name": "bind", "why": "It's always a DNS problem" },
-      { "name": "samba", "why": "No reason" }
+      { "name": "samba", "why": "No reason" },
+      { "name": "squid", "why": "Proxies" }
     ],
     "subtype": [
       {
