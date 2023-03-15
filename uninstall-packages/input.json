@@ -3,7 +3,10 @@
     "bundle": "uninstall_packages",
     "label": "Packages to uninstall",
     "namespace": "uninstall_packages",
-    "response": [{"name": "bind", "why": "It's always a DNS problem"}],
+    "response": [
+      { "name": "bind", "why": "It's always a DNS problem" },
+      { "name": "samba", "why": "No reason" }
+    ],
     "subtype": [
       {
         "key": "name",
