@@ -1,0 +1,26 @@
+[
+  {
+    "bundle": "uninstall_packages",
+    "label": "Packages to uninstall",
+    "namespace": "uninstall_packages",
+    "response": [{"name": "bind", "why": "It's always a DNS problem"}],
+    "subtype": [
+      {
+        "key": "name",
+        "label": "Name",
+        "question": "What is the name in the package manager (apt, yum, etc.)?",
+        "type": "string"
+      },
+      {
+        "default": "Unknown",
+        "key": "why",
+        "label": "Why",
+        "question": "Why should this package be uninstalled?",
+        "type": "string"
+      }
+    ],
+    "type": "list",
+    "variable": "package_names",
+    "while": "Specify another package you want uninstalled on your hosts?"
+  }
+]
